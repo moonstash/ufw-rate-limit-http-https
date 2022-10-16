@@ -20,3 +20,9 @@ Add these lines to /etc/ufw/before.rules after<br>
 
 2. Reload the filewall rules<br>
 <code>sudo ufw reload</code>
+
+check blocks
+
+```
+tail -f /var/log/ufw.log
+```
